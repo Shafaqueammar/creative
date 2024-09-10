@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: blueviolet;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.navbar a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 45px;
+    color: white;
+
+
+}
+
+.logo {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(160, 74, 241);
+    padding: 10px 20px;
+}
+
+.grid-item_1 h2 {
+    width: 80%;
+    margin: 20px 80px;
+    color: white;
+    font-size: 60px;
+}
+
+.grid-item_1 p {
+    color: white;
+    margin-left: 15%;
+}
+
+.grid-container_1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid-item_2 {
+    margin-right: 15%;
+}
+
+.grid-container_2 {
+    display: flex;
+    gap: 40px;
+    color: white;
+    width: 100%;
+    margin: 30px;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.grid-item_3 .btn {
+    background: none;
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 6px;
+    border-color: #fff;
+    border: 1px solid white;
+}
+
+.dots {
+    display: flex;
+    color: rgb(199, 155, 240);
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.dots:hover {
+    color: #fff;
+}
+
+.grid-container_3 {
+    display: flex;
+    border: 1px solid white;
+    justify-content: space-between;
+    color: white;
+    width: 70%;
+    margin: 30px;
+    align-items: center;
+    margin-left: 15%;
+    padding: 10px;
+}
+
+.grid-item_5 .search {
+    background-color: white;
+    color: rgb(160, 74, 241);
+    padding: 12px 20px;
+    border-radius: 3px;
+    border: none;
+}
+
+.footer {
+    background-color: blueviolet;
+    padding: 1rem 0 0 0;
+}
+
+.container_box {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+.footer .grid-4 {
+    display: grid;
+    grid-template-columns: 3.5fr 2fr 2fr 3fr;
+    padding: 2rem 0rem;
+}
+
+.grid-4-col {
+    padding: 0 1.7rem;
+}
+
+.footer .title-sm {
+    color: white;
+    margin-bottom: 0.9rem;
+}
+
+
+.footer .text {
+    color: #faf6f6;
+}
+
+
+.footer-links {
+    text-decoration: none;
+}
+
+.footer-links a {
+    color: rgb(253, 252, 254);
+    font-size: 1rem;
+    display: inline-block;
+    margin-bottom: 0.4rem;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: rgb(64, 2, 122);
+    cursor: pointer;
+
+}
+
+.footer-input-wrap {
+    display: grid;
+    grid-template-columns: auto 50px;
+    width: 100%;
+    height: 50px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-top: 1.2rem;
+}
+
+.footer-input-wrap ::placeholder {
+    color: white;
+}
+
+.footer-input {
+    background: rgb(160, 74, 241);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0 1.5rem;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.copyright .text {
+    color: #ffffff;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 70px 0px 5px 440px;
+}
+
+.copyright .text span {
+    color: rgb(93, 18, 162);
+    cursor: pointer;
+}
+
+.followme-wrap {
+    display: flex;
+}
