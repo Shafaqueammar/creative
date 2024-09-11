@@ -113,6 +113,10 @@ button {
 }
 
 @media(max-width: 991px) {
+    .container{
+        width: auto;
+        height: 100vh;
+    }
     header {
         padding: 20px;
     }
